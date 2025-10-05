@@ -25,5 +25,4 @@ public class Q27159 {
         br.close();
         bw.close();
     }
-    //아직 못 품
 }
