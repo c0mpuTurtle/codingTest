@@ -9,13 +9,19 @@ public class Q1712 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int[] input = Arrays.stream(br.readLine().split(" "))
-                        .mapToInt(Integer::parseInt).toArray();
+                .mapToInt(Integer::parseInt).
+                toArray();
 
-        for (int i = 0; i < 3; i++) {
-            System.out.println(input[i]);
+        int A = input[0];
+        int B = input[1];
+        int C = input[2];
+
+        if (B >= C) bw.write("-1");
+        else {
+            int N = A / (C - B) + 1;
+            bw.write(String.valueOf(N));
         }
 
-        bw.flush();
         br.close();
         bw.close();
     }
