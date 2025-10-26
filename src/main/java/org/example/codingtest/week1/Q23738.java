@@ -11,29 +11,22 @@ public class Q23738 {
         String output = "";
 
         for (int i = 0; i < input.length(); i++) {
-            if(input.charAt(i)=='B'){
-                output+="v";
-            }
-            else if(input.charAt(i)=='E'){
-                output+="ye";
-            }
-            else if(input.charAt(i)=='H'){
-                output+="n";
-            }
-            else if(input.charAt(i)=='P'){
-                output+="r";
-            }
-            else if(input.charAt(i)=='C'){
-                output+="s";
-            }
-            else if(input.charAt(i)=='Y'){
-                output+="u";
-            }
-            else if(input.charAt(i)=='X'){
-                output+="h";
-            }
-            else {
-                output+=Character.toLowerCase(input.charAt(i));
+            if (input.charAt(i) == 'B') {
+                output += "v";
+            } else if (input.charAt(i) == 'E') {
+                output += "ye";
+            } else if (input.charAt(i) == 'H') {
+                output += "n";
+            } else if (input.charAt(i) == 'P') {
+                output += "r";
+            } else if (input.charAt(i) == 'C') {
+                output += "s";
+            } else if (input.charAt(i) == 'Y') {
+                output += "u";
+            } else if (input.charAt(i) == 'X') {
+                output += "h";
+            } else {
+                output += Character.toLowerCase(input.charAt(i));
             }
         }
         bw.write(output);

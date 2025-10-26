@@ -15,9 +15,9 @@ public class Q1110 {
         do {
             int A = output / 10;
             int B = output % 10;
-            output = B * 10+(A+B)%10;
+            output = B * 10 + (A + B) % 10;
             cycle++;
-        }while(input!=output);
+        } while (input != output);
 
         bw.write(String.valueOf(cycle));
 

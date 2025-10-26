@@ -14,10 +14,9 @@ public class Q20499 {
         int D = Integer.parseInt(arr[1]);
         int A = Integer.parseInt(arr[2]);
 
-        if( K+A<D || D==0){
+        if (K + A < D || D == 0) {
             bw.write("hasu");
-        }
-        else{
+        } else {
             bw.write("gosu");
         }
 
