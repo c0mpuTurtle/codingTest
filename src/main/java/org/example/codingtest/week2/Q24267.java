@@ -9,9 +9,9 @@ public class Q24267 {
 
         long n = Long.parseLong(br.readLine());
 
-        long c = (n*(n-1)*(n-2))/6;
+        long c = (n * (n - 1) * (n - 2)) / 6;
 
-        bw.write(c+"\n");
+        bw.write(c + "\n");
         bw.write("3");
 
         br.close();
