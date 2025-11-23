@@ -13,7 +13,7 @@ public class Q10870 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int n= Integer.parseInt(br.readLine());
+        int n = Integer.parseInt(br.readLine());
         bw.write(String.valueOf(fibonacci(n)));
 
         bw.close();
